@@ -30,12 +30,17 @@ The Scripture Memorizer Program includes the following features:
 The design of the Scripture Memorizer Program emphasizes simplicity and usability. Encapsulation is achieved by encapsulating the major functionalities within separate classes for clear separation of concerns. Each class has a specific responsibility and interacts with other classes through well-defined interfaces. This modular approach ensures maintainable and scalable code.
 
  Here’s how encapsulation is demonstrated in the program:
-**Scripture Class:** Manages individual scripture data and methods.
-**ScriptureReferenceClass:** Handles the process of displaying scripture reference in a predefined format.
-**ScriptureLibrary Class:** Handles collections of predefined scriptures.
-**ScriptureFetcher Class:** Manages API interactions for fetching scriptures.
-**WordHider Class:** Controls the progressive hiding of words in scripture text.
-**UserInterface Class:** Manages user interactions and menu display.
+- **Scripture Class:** Manages individual scripture data and methods.
+  
+- **ScriptureReferenceClass:** Handles the process of displaying scripture reference in a predefined format.
+
+- **ScriptureLibrary Class:** Handles collections of predefined scriptures.
+
+- **ScriptureFetcher Class:** Manages API interactions for fetching scriptures.
+
+- **WordHider Class:** Controls the progressive hiding of words in scripture text.
+
+- **UserInterface Class:** Manages user interactions and menu display.
 
 ## How to Run the Program
 
